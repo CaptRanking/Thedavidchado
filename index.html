@@ -8,14 +8,14 @@
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
 <style>
   :root{
-    --ink:#1B2430;
-    --paper:#F5F1E6;
-    --text:#2B2A28;
-    --muted:#6E6A62;
-    --brass:#B8902F;
-    --rust:#A6453B;
-    --teal:#2F5B5E;
-    --line:#DDD6C4;
+    --ink:#141414;
+    --paper:#FAFAFA;
+    --text:#1C1C1C;
+    --muted:#6E6E6E;
+    --brass:#2C4A73;
+    --rust:#141414;
+    --teal:#7FA8D9;
+    --line:#DADADA;
     --card:#FFFFFF;
   }
   *{box-sizing:border-box; margin:0; padding:0;}
@@ -46,7 +46,7 @@
     font-size:11px;
     letter-spacing:2px;
     text-transform:uppercase;
-    color:var(--brass);
+    color:#A9C2E0;
     margin-bottom:18px;
     opacity:0;
     animation:riseIn 0.7s ease 0.1s forwards;
@@ -63,7 +63,7 @@
   }
   .hero p.role{
     font-size:16px;
-    color:#B8BFC9;
+    color:#B8B8B8;
     margin-top:18px;
     max-width:560px;
     opacity:0;
@@ -85,7 +85,7 @@
     font-family:'Fraunces',serif;
     font-size:76px;
     font-weight:600;
-    color:var(--brass);
+    color:#7FA8D9;
     line-height:1;
   }
   .hero-stat .label{
@@ -100,7 +100,7 @@
   /* ---------- ACCLAIM STRIP (signature element) ---------- */
   .acclaim{
     background:var(--brass);
-    color:var(--ink);
+    color:var(--paper);
     padding:22px 0;
   }
   .acclaim-track{
@@ -129,7 +129,7 @@
     opacity:0.75;
   }
   .acclaim-divider{
-    color:rgba(27,36,48,0.35);
+    color:rgba(255,255,255,0.35);
   }
 
   /* ---------- CASE FILES ---------- */
@@ -182,12 +182,13 @@
     border:1px solid var(--line);
     padding:3px 9px;
     border-radius:2px;
-    color:var(--teal);
+    color:var(--brass);
     margin-bottom:18px;
   }
   .case-block{margin-bottom:16px;}
   .case-block h4{
     font-size:11px;
+    font-weight:700;
     letter-spacing:1px;
     text-transform:uppercase;
     color:var(--muted);
@@ -271,14 +272,14 @@
     font-family:'Fraunces',serif;
     font-size:26px;
     font-weight:600;
-    color:var(--brass);
+    color:#7FA8D9;
   }
   .result-strip .r-label{
     font-family:'IBM Plex Mono',monospace;
     font-size:10px;
     letter-spacing:0.6px;
     text-transform:uppercase;
-    color:#9AA5B1;
+    color:#B0B0B0;
     margin-top:2px;
   }
 
@@ -324,12 +325,12 @@
   footer .contact{
     font-family:'IBM Plex Mono',monospace;
     font-size:12.5px;
-    color:#B8BFC9;
+    color:#B0B0B0;
     margin-top:8px;
   }
   .btn-resume{
-    background:var(--brass);
-    color:var(--ink);
+    background:#FFFFFF;
+    color:var(--brass);
     padding:12px 22px;
     border-radius:3px;
     font-weight:600;
@@ -351,7 +352,7 @@
 <!-- HERO -->
 <div class="hero">
   <div class="hero-inner">
-    <div class="eyebrow">Portfolio — Strategic Communications &amp; Campaign Leadership</div>
+    <div class="eyebrow">Portfolio · Strategic Communications &amp; Campaign Leadership</div>
     <h1>David Eyitayo Chado</h1>
     <p class="role">8+ years turning fragmented go-to-market challenges into coordinated, measurable campaigns for global entertainment, financial services, and consumer brands.</p>
     <div class="hero-stat">
@@ -383,16 +384,16 @@
     <div class="case-num">01<span>Entertainment</span></div>
     <div>
       <h3>Turning Global Titles Into Local Wins</h3>
-      <span class="client-tag">Netflix — Zebra Stripes Networks</span>
+      <span class="client-tag">Netflix · Zebra Stripes Networks</span>
 
       <div class="case-block">
         <h4>The Challenge</h4>
-        <p>Netflix's biggest titles — Bridgerton, Squid Game, Money Heist — launched with strong global campaigns, but African audiences were being reached through the same generic, one-size-fits-all content. Regional visibility was lagging behind the titles' actual cultural relevance in the market.</p>
+        <p>Netflix's biggest titles, including Bridgerton, Squid Game, and Money Heist, launched with strong global campaigns, but African audiences were being reached through the same generic, one-size-fits-all content. Regional visibility was lagging behind the titles' actual cultural relevance in the market.</p>
       </div>
 
       <div class="case-block">
         <h4>The Approach</h4>
-        <p>Rebuilt the launch model around the region instead of adapting it after the fact — integrating PR, SEO, paid media, and audience analytics into a single localized go-to-market framework. On-the-ground event coordination and targeted media relations turned press interest into real regional buzz ahead of each release, while stakeholder management across creative, legal, and business teams kept content creation and executive messaging moving in lockstep with tight launch timelines.</p>
+        <p>Rebuilt the launch model around the region instead of adapting it after the fact, integrating PR, SEO, paid media, and audience analytics into a single localized go-to-market framework. On-the-ground event coordination and targeted media relations turned press interest into real regional buzz ahead of each release, while stakeholder management across creative, legal, and business teams kept content creation and executive messaging moving in lockstep with tight launch timelines.</p>
       </div>
 
       <div class="case-block">
@@ -408,7 +409,6 @@
       </div>
 
       <div class="exhibit" style="flex-direction:column; align-items:stretch; gap:12px;">
-        <span class="exhibit-tag" style="align-self:flex-start;">Exhibit A</span>
         <img src="images/netflix-deadline-scholarship.png" alt="Deadline coverage of Netflix's $1M film and TV scholarship commitment in Sub-Saharan Africa" style="width:100%; border-radius:2px; display:block; border:1px solid var(--line);">
         <img src="images/netflix-variety-africa-strategy.png" alt="Variety coverage of Netflix Africa's originals and expansion strategy" style="width:100%; border-radius:2px; display:block; border:1px solid var(--line);">
       </div>
@@ -437,22 +437,22 @@
     <div class="case-num">02<span>Luxury Spirits</span></div>
     <div>
       <h3>Protecting Exclusivity While Growing Reach</h3>
-      <span class="client-tag">Martell Cognac "Martell Swift" (Pernod Ricard) — Notabene</span>
+      <span class="client-tag">Martell Cognac "Martell Swift" (Pernod Ricard) · Notabene</span>
 
       <div class="case-block">
         <h4>The Challenge</h4>
-        <p>Martell's cognac audience expects refinement, not volume — mass-market marketing tactics that work for other consumer brands risk cheapening a luxury brand's positioning. Compounding the challenge, a competitor held a strong, entrenched position in the cognac category, meaning the Martell Swift campaign had to grow market share in a space where audience loyalty was already spoken for — without resorting to the volume-first tactics that would undercut the brand's exclusivity.</p>
+        <p>Martell's cognac audience expects refinement, not volume, and mass-market marketing tactics that work for other consumer brands risk cheapening a luxury brand's positioning. Compounding the challenge, a competitor held a strong, entrenched position in the cognac category, meaning the Martell Swift campaign had to grow market share in a space where audience loyalty was already spoken for, without resorting to the volume-first tactics that would undercut the brand's exclusivity.</p>
       </div>
 
       <div class="case-block">
         <h4>The Approach</h4>
-        <p>Built an experiential-led strategy centered on curated brand moments and selective media and influencer partnerships — prioritizing the right audience over the widest audience, with storytelling calibrated to a premium tone throughout. Market growth strategy was built to chip away at the competitor's hold gradually, through exclusivity and cultural relevance rather than head-on price or volume competition.</p>
+        <p>Built an experiential-led strategy centered on curated brand moments and selective media and influencer partnerships, prioritizing the right audience over the widest audience, with storytelling calibrated to a premium tone throughout. Delivered through 10+ regional and local activations and events, market growth strategy was built to chip away at the competitor's hold gradually, through exclusivity and cultural relevance rather than head-on price or volume competition.</p>
       </div>
 
       <div class="case-block">
         <h4>Range of Work</h4>
         <div class="proof-row">
-          <div class="proof-chip">Experiential activations</div>
+          <div class="proof-chip">10+ regional &amp; local activations and events</div>
           <div class="proof-chip">Luxury brand storytelling</div>
           <div class="proof-chip">Selective media &amp; influencer partnerships</div>
           <div class="proof-chip">Premium audience targeting</div>
@@ -461,7 +461,6 @@
       </div>
 
       <div class="exhibit" style="flex-direction:column; align-items:stretch; gap:12px;">
-        <span class="exhibit-tag" style="align-self:flex-start;">Exhibit B</span>
         <img src="images/martell-swift-campaign.jpg" alt="Martell Blue Swift 'Be The Standout Swift' campaign creative" style="width:100%; border-radius:2px; display:block; border:1px solid var(--line);">
         <img src="images/martell-davido-bellanaija.png" alt="BellaNaija coverage of the Martell x Davido announcement party" style="width:100%; border-radius:2px; display:block; border:1px solid var(--line);">
       </div>
@@ -476,16 +475,15 @@
       </div>
 
       <div class="result-strip">
-        <div><div class="r-num">~4</div><div class="r-label">Brand activations (est.)</div></div>
-        <div><div class="r-num">~1M</div><div class="r-label">Content impressions (est.)</div></div>
-        <div><div class="r-num">~$190K</div><div class="r-label">Managed campaign value (est.)</div></div>
+        <div><div class="r-num">10+</div><div class="r-label">Regional &amp; local activations/events</div></div>
+        <div><div class="r-num">20M+</div><div class="r-label">Content impressions</div></div>
       </div>
     </div>
   </div>
 
   <div style="padding:36px 0 0; border-top:1px solid var(--line);">
     <p style="font-size:14px; color:var(--muted); max-width:640px;">
-      Martell was one of three consumer brand accounts managed simultaneously at Notabene — alongside MTV and Toyota, appearing later in this portfolio — spanning $800K+ in combined campaign value. Per-brand figures are an estimated proportional split of the combined total, not individually tracked numbers. Notabene's 70% pitch win rate was an agency-level new-business metric, not a per-brand result.
+      Martell was one of three consumer brand accounts managed simultaneously at Notabene, alongside MTV and Toyota, appearing later in this portfolio, spanning $800K+ in combined campaign value across all three accounts. Notabene's 70% pitch win rate was an agency-level new-business metric, not a per-brand result.
     </p>
     <div class="result-strip" style="margin-top:14px; max-width:320px;">
       <div><div class="r-num">70%</div><div class="r-label">Notabene pitch win rate</div></div>
@@ -497,16 +495,16 @@
     <div class="case-num">03<span>Financial Services</span></div>
     <div>
       <h3>Giving Leadership a Voice the Market Trusted</h3>
-      <span class="client-tag">Stanbic Bank — Zebra Stripes Networks</span>
+      <span class="client-tag">Stanbic Bank · Zebra Stripes Networks</span>
 
       <div class="case-block">
         <h4>The Challenge</h4>
-        <p>Stanbic Bank's senior leadership had the strategy and the credibility, but not a consistent public voice — executive perspectives weren't reaching stakeholders in a way that built visible trust or reinforced the bank's market position.</p>
+        <p>Stanbic Bank's senior leadership had the strategy and the credibility, but not a consistent public voice, and executive perspectives weren't reaching stakeholders in a way that built visible trust or reinforced the bank's market position.</p>
       </div>
 
       <div class="case-block">
         <h4>The Approach</h4>
-        <p>Built an executive communications program from the ground up — speeches, thought-leadership content, and briefing materials designed to put leadership directly in front of stakeholders, backed by a quarterly speaking cadence that kept executives visible year-round rather than only during major moments. Recognizing a widening gap with younger consumers, built tailored market growth strategies and coordinated event activations aimed squarely at a youthful audience — closing a disconnect that generic corporate messaging on its own couldn't reach.</p>
+        <p>Built an executive communications program from the ground up, including speeches, thought-leadership content, and briefing materials designed to put leadership directly in front of stakeholders, backed by a quarterly speaking cadence that kept executives visible year-round rather than only during major moments. Recognizing a widening gap with younger consumers, built tailored market growth strategies and coordinated event activations aimed squarely at a youthful audience, closing a disconnect that generic corporate messaging on its own couldn't reach.</p>
       </div>
 
       <div class="case-block">
@@ -522,7 +520,6 @@
       </div>
 
       <div class="exhibit" style="flex-direction:column; align-items:stretch; gap:12px;">
-        <span class="exhibit-tag" style="align-self:flex-start;">Exhibit C</span>
         <img src="images/stanbic-thesun-scholarship.png" alt="The Sun coverage of Stanbic IBTC's scholarship initiative for undergraduates" style="width:100%; border-radius:2px; display:block; border:1px solid var(--line);">
         <img src="images/stanbic-fuze-talent-show.png" alt="MSME Africa coverage of Stanbic IBTC Pension Managers' FUZE Talent Show 2.0 for Nigerian youths" style="width:100%; border-radius:2px; display:block; border:1px solid var(--line);">
       </div>
@@ -549,16 +546,16 @@
     <div class="case-num">04<span>Entertainment / Youth Culture</span></div>
     <div>
       <h3>Speaking a Digital-Native Audience's Language</h3>
-      <span class="client-tag">MTV — Notabene</span>
+      <span class="client-tag">MTV · Notabene</span>
 
       <div class="case-block">
         <h4>The Challenge</h4>
-        <p>MTV needed campaigns that felt native to a young, digitally fluent audience — one that scrolls past anything that reads like recycled entertainment PR. Standard media-relations playbooks weren't built for platforms where the audience actually lived.</p>
+        <p>MTV needed campaigns that felt native to a young, digitally fluent audience, one that scrolls past anything that reads like recycled entertainment PR. Standard media-relations playbooks weren't built for platforms where the audience actually lived.</p>
       </div>
 
       <div class="case-block">
         <h4>The Approach</h4>
-        <p>Built social-first campaign strategy anchored in creator partnerships and youth-culture content series, treating influencer relationships as a core channel rather than an add-on to traditional PR.</p>
+        <p>Built social-first campaign strategy anchored in creator partnerships and youth-culture content series, treating influencer relationships as a core channel rather than an add-on to traditional PR. Delivered through 5 events, including press conferences and launch events, that reached 15M+ in content impressions.</p>
       </div>
 
       <div class="case-block">
@@ -566,7 +563,7 @@
         <div class="proof-row">
           <div class="proof-chip">Social-first content strategy</div>
           <div class="proof-chip">Influencer &amp; creator partnerships</div>
-          <div class="proof-chip">PR &amp; media relations</div>
+          <div class="proof-chip">Press conferences &amp; launch events</div>
           <div class="proof-chip">Youth audience research</div>
         </div>
       </div>
@@ -581,9 +578,8 @@
       </div>
 
       <div class="result-strip">
-        <div><div class="r-num">~6</div><div class="r-label">Brand activations (est.)</div></div>
-        <div><div class="r-num">~2M</div><div class="r-label">Content impressions (est.)</div></div>
-        <div><div class="r-num">~$240K</div><div class="r-label">Managed campaign value (est.)</div></div>
+        <div><div class="r-num">5</div><div class="r-label">Press conferences &amp; launch events</div></div>
+        <div><div class="r-num">15M+</div><div class="r-label">Content impressions</div></div>
       </div>
     </div>
   </div>
@@ -593,41 +589,35 @@
     <div class="case-num">05<span>Automotive</span></div>
     <div>
       <h3>Bringing One Voice to an Already-Strong Brand</h3>
-      <span class="client-tag">Toyota — Notabene</span>
+      <span class="client-tag">Toyota · Notabene</span>
 
       <div class="case-block">
         <h4>The Challenge</h4>
-        <p>Toyota didn't need to build brand presence — that was already well established. The real problem was underneath it: communications weren't coordinated, and multiple brand messages were running across channels without a shared thread, creating a fragmented voice for a brand that was otherwise strong.</p>
+        <p>Toyota didn't need to build brand presence, since that was already well established. The real problem was underneath it: communications weren't coordinated, and multiple brand messages were running across channels without a shared thread, creating a fragmented voice for a brand that was otherwise strong.</p>
       </div>
 
       <div class="case-block">
         <h4>The Approach</h4>
-        <p>Built an integrated, multi-channel strategy spanning PR, digital, and social — focused less on building awareness from zero and more on pulling scattered messaging into one coordinated communications thread, so every channel reinforced the same brand story instead of running its own version of it.</p>
+        <p>Provided strategic input and brand communications advisory across PR, digital, and social channels, focused less on building awareness from zero and more on pulling scattered messaging into one coordinated communications thread, so every channel reinforced the same brand story instead of running its own version of it.</p>
       </div>
 
       <div class="case-block">
         <h4>Range of Work</h4>
         <div class="proof-row">
-          <div class="proof-chip">Integrated PR &amp; digital strategy</div>
+          <div class="proof-chip">Brand communications strategy input</div>
+          <div class="proof-chip">Positioning advisory</div>
           <div class="proof-chip">Cross-channel messaging alignment</div>
           <div class="proof-chip">Brand voice consolidation</div>
-          <div class="proof-chip">Multi-channel campaign execution</div>
         </div>
       </div>
 
       <div class="case-block">
         <h4>Capabilities Demonstrated</h4>
         <div class="cap-row">
-          <div class="cap-chip">Integrated Campaign Leadership</div>
           <div class="cap-chip">Brand Positioning Strategy</div>
+          <div class="cap-chip">Executive Advisory &amp; Stakeholder Communications</div>
           <div class="cap-chip">Audience &amp; Performance Strategy</div>
         </div>
-      </div>
-
-      <div class="result-strip">
-        <div><div class="r-num">~5</div><div class="r-label">Brand activations (est.)</div></div>
-        <div><div class="r-num">~2M</div><div class="r-label">Content impressions (est.)</div></div>
-        <div><div class="r-num">~$370K</div><div class="r-label">Managed campaign value (est.)</div></div>
       </div>
     </div>
   </div>
@@ -640,11 +630,11 @@
       <span class="client-tag">Inkblot Productions</span>
       <div class="case-block">
         <h4>The Challenge</h4>
-        <p>As a production company, attention and urgency inside the business naturally gathered around active shoots and release timelines — internal systems and governance work, like a SharePoint rollout, risked being ignored entirely if it competed for attention with what was happening on set. At the same time, the company's external-facing presence — media relations, stakeholder messaging, and public-facing content — needed to stay just as consistent as the internal side, even as production schedules shifted around both.</p>
+        <p>As a production company, attention and urgency inside the business naturally gathered around active shoots and release timelines, so internal systems and governance work, like a SharePoint rollout, risked being ignored entirely if it competed for attention with what was happening on set. At the same time, the company's external-facing presence, including media relations, stakeholder messaging, and public-facing content, needed to stay just as consistent as the internal side, even as production schedules shifted around both.</p>
       </div>
       <div class="case-block">
         <h4>The Approach</h4>
-        <p>Ran internal and external communications as one coordinated function rather than two separate efforts. Internally, modernized the intranet and translated SharePoint governance standards into clear, adoptable communication for staff. Externally, managed media relations and stakeholder messaging through crisis moments and shifting timelines, while producing branded external content — newsletters, infographics, blog content — that kept the company's public voice steady regardless of what was happening behind the scenes.</p>
+        <p>Ran internal and external communications as one coordinated function rather than two separate efforts. Internally, modernized the intranet and translated SharePoint governance standards into clear, adoptable communication for staff. Externally, managed media relations, stakeholder event coordination, and stakeholder messaging through crisis moments and shifting timelines, while producing branded external content, including newsletters, infographics, and blog content, that kept the company's public voice steady regardless of what was happening behind the scenes.</p>
       </div>
       <div class="case-block">
         <h4>Range of Work</h4>
@@ -652,6 +642,7 @@
           <div class="proof-chip">Intranet &amp; website management (WordPress, GoDaddy)</div>
           <div class="proof-chip">Governance messaging for SharePoint rollout</div>
           <div class="proof-chip">External media relations</div>
+          <div class="proof-chip">Event coordination for stakeholders</div>
           <div class="proof-chip">Branded external content (newsletters, infographics, blogs)</div>
           <div class="proof-chip">Crisis communications</div>
         </div>
@@ -693,7 +684,7 @@
 <footer>
   <div class="wrap">
     <div>
-      <h3>Let's talk strategy.</h3>
+      <h3>Let's talk.</h3>
       <div class="contact">Davidchado@outlook.com &nbsp;·&nbsp; (548) 333-9051 &nbsp;·&nbsp; Ontario, Canada</div>
     </div>
     <a href="#" class="btn-resume">Download Resume →</a>
